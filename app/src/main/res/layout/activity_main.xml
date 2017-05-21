@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeexhan.app.MainActivity">
+
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="26dp"
+        android:background="@mipmap/ic_map"
+        android:onClick="process"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Open Google Maps"
+        android:layout_below="@+id/maps"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="159dp"
+        android:layout_marginStart="159dp" />
+
+    <Button
+        android:id="@+id/playstore"
+        android:layout_width="100dp"
+        android:onClick="process"
+        android:layout_height="100dp"
+        android:background="@mipmap/ic_play"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/maps"
+        android:layout_alignStart="@+id/maps" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Open PlayStore"
+        android:layout_below="@+id/playstore"
+        android:layout_alignLeft="@+id/playstore"
+        android:layout_alignStart="@+id/playstore" />
+
+    <Button
+        android:id="@+id/Gallery"
+        android:layout_width="100dp"
+        android:onClick="process"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/ic_glry"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Gallery"
+        android:layout_below="@+id/Gallery"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="41dp" />
+
+
+</RelativeLayout>
