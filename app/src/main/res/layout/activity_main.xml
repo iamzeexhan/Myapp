@@ -12,7 +12,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="26dp"
-        android:background="@mipmap/ic_map"
+        android:background="@mipmap/ic_l"
         android:onClick="process"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/textView"
@@ -35,10 +35,9 @@
         android:onClick="process"
         android:layout_height="100dp"
         android:background="@mipmap/ic_play"
-        android:layout_marginTop="17dp"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/maps"
-        android:layout_alignStart="@+id/maps" />
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
 
     <TextView
         android:id="@+id/textView4"
@@ -55,7 +54,7 @@
         android:layout_width="100dp"
         android:onClick="process"
         android:layout_height="100dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="13dp"
         android:background="@mipmap/ic_glry"
         android:layout_below="@+id/textView4"
         android:layout_alignLeft="@+id/textView4"
